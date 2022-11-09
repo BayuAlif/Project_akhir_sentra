@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    }
+
+    .logo{
+      background: yellow;
+      -webkit-transform: skewX(-15deg);
+      transform: skewX(-15deg);
+      line-height: 67px;
+      margin: 0;
+      padding: 0 48px;
+      color: black;
+  }
+  
+  a{
+      text-decoration: none;
+      
+  }
+  
+  
+  ul{
+      list-style: none;
+  }
+  
+  input,button,textarea{
+      border: none;
+      outline: none;
+  }
+  
+  /*Navigation*/
+  
+  nav{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      left: 0;
+      top: 0;
+      width: 100%;
+      z-index: 1;
+  }
+  
+  nav ul{
+      display: flex;
+  }
+  
+  nav ul li a{
+      height: 40px;
+      line-height: 43px;
+      margin: 3px;
+      padding: 0 22px;
+      display: flex;
+      font-size: 0,9rem;
+      text-transform: uppercase;
+      font-weight: 500;
+      letter-spacing: 1px;
+      border-radius: 3px;
+      transition-timing-function: 0.6% ease-in-out;
+      color: black;
+  }
+  
+  nav ul li a:hover{
+      background-color: rgb(237, 254, 0);
+      color: rgb(217, 232, 245);
+      box-shadow: 5px 10px 30px rgba(225, 59, 0, 0.397);
+  }
+  
+  .Action{
+      background-color:rgb(237, 254, 0);
+      color: black;
+      box-shadow: 5px 10px 30px rgba(225, 59, 0, 0.397);;
+  }
+  
+    
+    Body{
+
+    height: 100vh;
+
+    align-items: center;
+    padding: 10px;
+    background-image: url(./img/Anime.png);
+    background-position: 80px;
+       }
+    
+    .container{
+       max-width: 700px;
+       width: 100%;
+       background: lightgrey;
+       padding: 25px  30px;
+       border-radius: 5px;
+       justify-content: center;
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+    }
+    
+    .container .title{
+       font-size: 25px;
+       font-weight: 500;
+       position: relative;
+    }
+    .container .title::before{
+       content: '';
+       position: absolute;
+       left: 0;
+       bottom: 0;
+       height: 3px;
+       width: 30px;
+       background: linear-gradient(135deg, yellow, rgb(255, 140, 0));
+    }
+
+    .input-box{
+      margin-top: 15px
+    }
+   
+   .user-details{
+      margin-top: 8px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+   }
+
+   .button{
+      margin-top: 30px;
+      display: block;
+   }
+
+   input, button{
+      padding: 2px;
+      border: black solid 2px;
+   }

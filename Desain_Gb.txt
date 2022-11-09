@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo{
+    background: yellow;
+    -webkit-transform: skewX(-15deg);
+    transform: skewX(-15deg);
+    line-height: 67px;
+    margin: 0;
+    padding: 0 48px;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+
+ul{
+    list-style: none;
+}
+
+input,button,textarea{
+    border: none;
+    outline: none;
+}
+
+/*Navigation*/
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0 22px;
+    display: flex;
+    font-size: 0,9rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition-timing-function: 0.6% ease-in-out;
+    color: black;
+}
+
+nav ul li a:hover{
+    background-color: rgb(237, 254, 0);
+    color: rgb(217, 232, 245);
+    box-shadow: 5px 10px 30px rgba(225, 59, 0, 0.397);
+}
+
+.Action{
+    background-color:rgb(237, 254, 0);
+    color: black;
+    box-shadow: 5px 10px 30px rgba(225, 59, 0, 0.397);;
+}
+
+
+body{
+    background-image: url(./img/Anime.png);
+    background-position: 80px;
+    }
+
+.contactus{
+    position: relative;
+    width: 100%;
+    padding: 40px 100px;
+}
+
+.contactus .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.contactus .title h2{
+    color: black;
+    font-weight: 500;
+}
+
+.form{
+    grid-area: form;
+}
+
+.info{
+    grid-area: info;
+}
+
+.map{
+    grid-area: map;
+}
+
+.contact{
+    padding: 40px;
+    background:rgb(226, 223, 223);
+}
+
+.box{
+    position: relative;
+    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 5fr 4fr;
+    grid-template-areas: 
+    "form info"
+    "form map";
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+
+.contact h3{
+    color: black;
+    font-weight: 500;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.formBox{
+    position: relative;
+    width: 100%;
+}
+
+.formBox .row50{
+    display: flex;
+    gap: 20px;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.formBox .row100 .inputBox{
+    width: 100%;
+}
+
+.inputBox span{
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.inputBox input{
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: 1% solid #333;
+}
+
+.inputBox textarea{
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: 1% solid #333;
+    resize: none;
+    min-height: 220px;
+    margin-bottom: 10px;
+}
+
+.inputBox input[type="submit"]
+{
+    background: #ff578b;
+    color: azure;
+    border: none;
+    font-size: 1.1em;
+    max-width: 120px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 14px 15px;
+}
+
+.inputBox ::placeholder{
+    color: #995;
+}
