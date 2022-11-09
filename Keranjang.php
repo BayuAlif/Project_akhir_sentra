@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="ds.css">
+    <link rel="stylesheet" href="Desain_keranjang.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -20,8 +20,8 @@
         <ul class="Menu">
             <li><a href="Project_Akhir_Sentra.php">Home</a></li>
             <li><a href="Keranjang.php" class="Action">Transaction</a></li>
-            <li><a href="cs.php">Guest Book</a></li>
-            <li><a href="Cu.php">COntact Us</a></li>
+            <li><a href="Guest_book.php">Guest Book</a></li>
+            <li><a href="Contact_us.php">COntact Us</a></li>
             <li><a href="Form_login.php">Sign Up</a></li>
         </ul>
     </nav>

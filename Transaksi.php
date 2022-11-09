@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Desain_transaksi.css">
 
 </head>
 <body>
@@ -18,15 +18,15 @@
 <ul class="Menu">
     <li><a href="Project_Akhir_Sentra.php" >Home</a></li>
     <li><a href="#" class="Action">transaction</a></li>
-    <li><a href="#">Guest Book</a></li>
-    <li><a href="cu.php">Contact Us</a></li>
+    <li><a href="Guest_book.php">Guest Book</a></li>
+    <li><a href="Contact_us.php">Contact Us</a></li>
     <li><a href="Form_login.php">Sign Up</a></li>
 </ul>
 </nav>
 
 <div class="container">
 
-    <form action="">
+    <form action="Validasi.php">
 
         <div class="row">
 
@@ -36,29 +36,29 @@
 
                 <div class="inputBox">
                     <span>full name :</span>
-                    <input type="text" placeholder="john deo">
+                    <input type="text" placeholder="john deo"  required>
                 </div>
                 <div class="inputBox">
                     <span>email :</span>
-                    <input type="email" placeholder="example@example.com">
+                    <input type="email" placeholder="example@example.com" required>
                 </div>
                 <div class="inputBox">
                     <span>address :</span>
-                    <input type="text" placeholder="room - street - locality">
+                    <input type="text" placeholder="room - street - locality" required>
                 </div>
                 <div class="inputBox">
                     <span>city :</span>
-                    <input type="text" placeholder="mumbai">
+                    <input type="text" placeholder="mumbai" required>
                 </div>
 
                 <div class="flex">
                     <div class="inputBox">
                         <span>state :</span>
-                        <input type="text" placeholder="india">
+                        <input type="text" placeholder="india" required>
                     </div>
                     <div class="inputBox">
                         <span>zip code :</span>
-                        <input type="text" placeholder="123 456">
+                        <input type="text" placeholder="123 456" required>
                     </div>
                 </div>
 
@@ -74,25 +74,25 @@
                 </div>
                 <div class="inputBox">
                     <span>name on card :</span>
-                    <input type="text" placeholder="mr. john deo">
+                    <input type="text" placeholder="mr. john deo" required>
                 </div>
                 <div class="inputBox">
                     <span>credit card number :</span>
-                    <input type="number" placeholder="1111-2222-3333-4444">
+                    <input type="number" placeholder="1111-2222-3333-4444" required>
                 </div>
                 <div class="inputBox">
                     <span>exp month :</span>
-                    <input type="text" placeholder="january">
+                    <input type="text" placeholder="january" required>
                 </div>
 
                 <div class="flex">
                     <div class="inputBox">
                         <span>exp year :</span>
-                        <input type="number" placeholder="2022">
+                        <input type="number" placeholder="2022" required>
                     </div>
                     <div class="inputBox">
                         <span>CVV :</span>
-                        <input type="text" placeholder="1234">
+                        <input type="text" placeholder="1234" required>
                     </div>
                 </div>
 
@@ -100,7 +100,7 @@
     
         </div>
 
-        <input type="submit" value="proceed to checkout" class="submit-btn">
+        <input type="submit" value="proceed to checkout" class="submit-btn" required>
 
     </form>
 

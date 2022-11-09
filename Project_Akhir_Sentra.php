@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="Desain_pro.css">
+    <link rel="stylesheet" href="Desain_project.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -25,8 +25,8 @@
             <ul class="Menu">
                 <li><a href="#" class="Action">Home</a></li>
                 <li><a href="Keranjang.php">Transaction</a></li>
-                <li><a href="cs.php">Guest Book</a></li>
-                <li><a href="Cu.php">Contact Us</a></li>
+                <li><a href="Guest_book.php">Guest Book</a></li>
+                <li><a href="Contact_us.php">Contact Us</a></li>
                 <li><a href="Form_login.php">Sign Up</a></li>
                 <li><a href="#"><img src="img/Keranjang.png" alt=""></a></li>
             </ul>

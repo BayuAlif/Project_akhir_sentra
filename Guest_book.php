@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="Desain_Cs.css">
+    <link rel="stylesheet" href="Desain_Gb.css">
 </head>
 
 <body>
@@ -18,7 +18,7 @@
             <li><a href="Project_Akhir_Sentra.php">Home</a></li>
             <li><a href="Keranjang.php">Transaction</a></li>
             <li><a href="#" class="Action">Guest Book</a></li>
-            <li><a href="cu.php">Contact Us</a></li>
+            <li><a href="Contact_us.php">Contact Us</a></li>
             <li><a href="Form_login.php">Sign Up</a></li>
         </ul>
     </nav>

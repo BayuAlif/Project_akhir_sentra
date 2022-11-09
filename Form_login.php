@@ -16,8 +16,8 @@
             <ul class="Menu">
                 <li><a href="Project_Akhir_Sentra.php">Home</a></li>
                 <li><a href="Keranjang.php">Transaction</a></li>
-                <li><a href="Cs.php">Guest Book</a></li>
-                <li><a href="cu.php">Contact Us</a></li>
+                <li><a href="Guest_book.php">Guest Book</a></li>
+                <li><a href="Contact_us.php">Contact Us</a></li>
                 <li><a href="#" class="Action">Sign Up</a></li>
                 
             </ul>
